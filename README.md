@@ -26,11 +26,11 @@ Now try looking at your services.php file in laravel
 Now open .env file and fill this out using your own credential data that have been generated from Google:
 GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
-GOOGLE_CLIENT_REDIRECT=http://127.0.0.1:8000/auth/google/callback (<- this can be changed depends on what URL you want but since we are using localhost so this is the URL we are using)
+GOOGLE_CLIENT_REDIRECT='http://127.0.0.1:8000/auth/google/callback' (<- this can be changed depends on what URL you want but since we are using localhost so this is the URL we are using)
 
 After all of that just make sure your routing is correct if you change anything else except for the part above.
 
-This goes the same for GitHub login, just create another new Oatuh app in https://github.com/settings/developers
+This goes the same for GitHub login, just create another new Oatuh app in "https://github.com/settings/developers"
 and fill the blanks (or EDIT) for Github in both services.php and .env
 
 #Forgot Password
