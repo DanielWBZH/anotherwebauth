@@ -40,4 +40,5 @@ If you register it using some email adresses, then there is the forgot password 
 
 We will be using Mailtrap.io for testing the forgot password function for local web.
 Just go the the web and register using any email that will be tested for the function.
-Go to the Sandbox option and go to your inboxes and click the SMTP setting and copy the URL below but make sure it changed to Laravel and just copy/paste it to the .env (You can read the documentation for this function or all the function actually, its all on the Internet)<br />
+Go to the Sandbox option and go to your inboxes and click the SMTP setting and copy the URL below but make sure it changed to Laravel and just copy/paste it to the .env (You can read the documentation for this function or all the function actually, its all on the Internet. Just make sure your using the correct database and such)<br />
+
